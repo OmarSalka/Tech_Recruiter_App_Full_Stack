@@ -20,10 +20,6 @@ const About = () => {
           convenient way
         </p>
         <p className='indent-features'>
-          <i className='fas fa-caret-right'></i> Feel like learning more about
-          the condidate? Use our links to their github profile and repos
-        </p>
-        <p className='indent-features'>
           <i className='fas fa-caret-right'></i> Add the potential condidate to
           your directory
         </p>

@@ -4,7 +4,7 @@ import PopUpContext from '../../../Context/PopUp/popUpContext';
 import CandidateContext from '../../../Context/Candidate/candidateContext';
 
 const CandidateCard = ({
-  candidate: { id, notes, position, name, hireable, login, avatar_url }
+  candidate: { id, notes, position, name, hireable, login }
 }) => {
   const popUpContext = useContext(PopUpContext);
   const {
@@ -49,7 +49,6 @@ const CandidateCard = ({
               {login ? login : 'N/A'}
             </strong>
           </Link>
-          <img src={avatar_url} alt='Oops' />
           <p>
             Position:
             <br />

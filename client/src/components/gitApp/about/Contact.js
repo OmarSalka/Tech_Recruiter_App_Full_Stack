@@ -19,13 +19,6 @@ const Contact = () => {
           <hr />
           <div className='socialMedia'>
             <a
-              href='https://twitter.com/TheRealMe_SO'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <i className='fab fa-twitter fa-2x'></i>
-            </a>{' '}
-            <a
               href='https://www.instagram.com/omar_inst_/'
               target='_blank'
               rel='noopener noreferrer'

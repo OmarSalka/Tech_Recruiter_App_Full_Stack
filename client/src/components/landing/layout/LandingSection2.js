@@ -34,7 +34,7 @@ const LandingSection2 = () => {
         >
           <div className='features'>
             <div className='featureItem'>
-              <i className='fas fa-id-card fa-3x'></i>
+              <i className='far fa-folder-open fa-3x'></i>
               <div style={{ textAlign: 'left' }}>
                 <h4>Mini Github Profiles</h4>
                 <p>
@@ -83,7 +83,7 @@ const LandingSection2 = () => {
               </div>
             </div>
             <div className='featureItem'>
-              <i className='fas fa-user-circle fa-3x'></i>
+              <i className='fas fa-sign-in-alt fa-3x'></i>
               <div style={{ textAlign: 'left' }}>
                 <h4>Unique Features</h4>
                 <p>
@@ -100,8 +100,8 @@ const LandingSection2 = () => {
               animateOnce={true}
             >
               <h1>
-                <i className='fas fa-quote-left'></i> First of its kind and the
-                best yet!
+                <i className='fas fa-quote-left'></i> It's a great app! Haven't
+                seen anything like it!
               </h1>
               <p style={{ textAlign: 'center' }}>- Omar Salka</p>
               <h2 style={{ margin: '1rem 0rem' }}>

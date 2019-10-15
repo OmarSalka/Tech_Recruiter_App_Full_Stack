@@ -34,16 +34,6 @@ const LandingSection3 = () => {
               <hr />
               <div className='socialMedia'>
                 <a
-                  href='https://twitter.com/TheRealMe_SO'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <i
-                    className='fab fa-twitter fa-2x'
-                    style={{ color: 'rgba(255, 255, 255, 0.65)' }}
-                  ></i>
-                </a>{' '}
-                <a
                   href='https://www.instagram.com/omar_inst_/'
                   target='_blank'
                   rel='noopener noreferrer'

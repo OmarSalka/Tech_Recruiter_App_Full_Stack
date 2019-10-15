@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import CandidateContext from '../../../Context/Candidate/candidateContext';
 
-const UserCard = ({ user: { avatar_url, login, id } }) => {
+const UserCard = ({ user: { login, id } }) => {
   const candidateContext = useContext(CandidateContext);
   const { checkIfCandidate } = candidateContext;
 
@@ -12,7 +12,6 @@ const UserCard = ({ user: { avatar_url, login, id } }) => {
 
   return (
     <div className='userCard'>
-      <img src={avatar_url} alt='Oops' />
       <p style={{ marginBottom: '0.5rem' }}>
         <strong style={{ fontFamily: 'Acme' }}>{login}</strong>
       </p>
@@ -22,7 +21,7 @@ const UserCard = ({ user: { avatar_url, login, id } }) => {
         style={customBtn}
         onClick={onClick}
       >
-        More
+        Profile
       </Link>
     </div>
   );
